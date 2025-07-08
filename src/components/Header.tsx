@@ -10,8 +10,8 @@ const Header = () => {
               POP SHOP
             </h1>
             <div className="hidden md:block">
-              <span className="handwritten text-xl text-gray-600 transform -rotate-3 inline-block">
-                ✨ Where Art Meets Fashion! ✨
+              <span className='text-gray-600 text-xl handwritten transform -rotate-3 inline-block'>✨ Art Meets Fashion! ✨
+
               </span>
             </div>
           </div>
@@ -47,8 +47,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
-  );
+    </header>);
+
 };
 
 export default Header;
