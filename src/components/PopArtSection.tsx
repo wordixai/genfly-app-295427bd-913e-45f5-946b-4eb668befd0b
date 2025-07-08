@@ -1,7 +1,7 @@
 const PopArtSection = () => {
   return (
     <section className="py-16 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-400 via-orange-400 to-yellow-400"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-green-400 via-emerald-400 to-yellow-400"></div>
       
       {/* Comic dots background */}
       <div className="absolute inset-0" style={{

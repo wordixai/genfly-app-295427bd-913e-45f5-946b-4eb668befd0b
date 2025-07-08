@@ -35,7 +35,7 @@ const FeaturedProducts = () => {
     <section className="py-16 bg-white relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-6xl comic-text text-black mb-4" style={{ textShadow: '4px 4px 0px #FF6B35' }}>
+          <h2 className="text-6xl comic-text text-black mb-4" style={{ textShadow: '4px 4px 0px #32CD32' }}>
             FEATURED ITEMS
           </h2>
           <p className="text-xl handwritten text-gray-600 bg-yellow-200 inline-block px-6 py-2 transform -rotate-1 border-3 border-black">

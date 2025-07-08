@@ -6,11 +6,12 @@
 
 @layer base {
   :root {
-    --pop-orange: #FF6B35;
-    --pop-pink: #FF69B4;
+    --pop-green: #32CD32;
+    --pop-emerald: #50C878;
+    --pop-lime: #00FF00;
     --pop-yellow: #FFD700;
     --pop-blue: #00BFFF;
-    --pop-green: #32CD32;
+    --pop-white: #FFFFFF;
     --comic-shadow: 4px 4px 0px #000;
   }
 
@@ -21,7 +22,7 @@
 
 @layer components {
   .pop-bg {
-    background: linear-gradient(45deg, #FF6B35 25%, #FF69B4 25%, #FF69B4 50%, #FF6B35 50%, #FF6B35 75%, #FF69B4 75%);
+    background: linear-gradient(45deg, #32CD32 25%, #50C878 25%, #50C878 50%, #32CD32 50%, #32CD32 75%, #50C878 75%);
     background-size: 40px 40px;
     position: relative;
   }
@@ -36,7 +37,7 @@
     background-image: 
       radial-gradient(circle at 20% 20%, #FFD700 2px, transparent 2px),
       radial-gradient(circle at 80% 80%, #00BFFF 3px, transparent 3px),
-      radial-gradient(circle at 40% 70%, #32CD32 2px, transparent 2px),
+      radial-gradient(circle at 40% 70%, #00FF00 2px, transparent 2px),
       radial-gradient(circle at 90% 30%, #FFD700 2px, transparent 2px);
     background-size: 60px 60px, 80px 80px, 50px 50px, 70px 70px;
     opacity: 0.8;
@@ -46,7 +47,7 @@
   .pop-frame {
     background: #fff;
     border: 6px solid #000;
-    box-shadow: 8px 8px 0px #FF6B35, 16px 16px 0px #000;
+    box-shadow: 8px 8px 0px #32CD32, 16px 16px 0px #000;
     transform: rotate(-2deg);
     transition: all 0.3s ease;
     position: relative;
@@ -55,7 +56,7 @@
 
   .pop-frame:hover {
     transform: rotate(0deg) scale(1.05);
-    box-shadow: 12px 12px 0px #FF69B4, 20px 20px 0px #000;
+    box-shadow: 12px 12px 0px #50C878, 20px 20px 0px #000;
   }
 
   .comic-text {
@@ -70,7 +71,7 @@
 
   .bounce-btn {
     animation: bounce 2s infinite;
-    background: linear-gradient(45deg, #FF6B35, #FF69B4);
+    background: linear-gradient(45deg, #32CD32, #50C878);
     border: 4px solid #000;
     box-shadow: 4px 4px 0px #000;
     transform: rotate(-1deg);
@@ -80,7 +81,7 @@
   .bounce-btn:hover {
     transform: rotate(1deg) translateY(-2px);
     box-shadow: 6px 6px 0px #000;
-    background: linear-gradient(45deg, #FF69B4, #FF6B35);
+    background: linear-gradient(45deg, #50C878, #32CD32);
   }
 
   .zigzag-border {

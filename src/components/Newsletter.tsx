@@ -4,18 +4,18 @@ const Newsletter = () => {
       {/* Comic book halftone pattern */}
       <div className="absolute inset-0" style={{
         backgroundImage: `
-          radial-gradient(circle at 20% 20%, #FF6B35 2px, transparent 2px),
-          radial-gradient(circle at 80% 80%, #FF69B4 2px, transparent 2px)
+          radial-gradient(circle at 20% 20%, #32CD32 2px, transparent 2px),
+          radial-gradient(circle at 80% 80%, #50C878 2px, transparent 2px)
         `,
         backgroundSize: '30px 30px, 50px 50px',
         opacity: 0.3
       }}></div>
       
       <div className="container mx-auto px-4 text-center relative z-10">
-        <h2 className="text-6xl comic-text text-white mb-6" style={{ textShadow: '4px 4px 0px #FF6B35' }}>
+        <h2 className="text-6xl comic-text text-white mb-6" style={{ textShadow: '4px 4px 0px #32CD32' }}>
           STAY IN THE LOOP!
         </h2>
-        <p className="text-xl handwritten text-gray-300 mb-8 bg-orange-400 inline-block px-6 py-2 transform -rotate-1 border-3 border-white">
+        <p className="text-xl handwritten text-gray-300 mb-8 bg-green-400 inline-block px-6 py-2 transform -rotate-1 border-3 border-white">
           Get the latest drops and exclusive deals! 📧✨
         </p>
         
